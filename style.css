@@ -30,6 +30,10 @@ body {
 
 }
 
+.hbg {
+  display: none;
+}
+
 .logo a {
     text-decoration: none;
     font-size: 24px;
@@ -231,6 +235,15 @@ body {
 
 
   @media screen and (max-width: 600px){
+    header{
+      height: 100%;
+    }
+    .nav-links{
+      display: none;
+    }
+    .hbg{
+      display: block;
+    }
     .logo img {
       height: 30px;
     }
