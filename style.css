@@ -30,7 +30,8 @@ body {
 
 }
 
-.hbg {
+.hbg,
+.mobile-menu {
   display: none;
 }
 
@@ -55,6 +56,9 @@ body {
 .nav-links a:hover {
     color: rgb(230, 108, 108);
 }
+
+
+
 
 
 
@@ -243,7 +247,9 @@ body {
     }
     .hbg{
       display: block;
+      height: 30px;
     }
+    
     .logo img {
       height: 30px;
     }
