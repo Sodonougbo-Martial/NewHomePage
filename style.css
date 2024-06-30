@@ -30,10 +30,12 @@ body {
 
 }
 
-.hbg,
-.mobile-menu {
+.hbg {
   display: none;
 }
+
+
+
 
 .logo a {
     text-decoration: none;
@@ -246,10 +248,35 @@ body {
     .navbar {
       width: 100%;
     }
-    
+        .navbar-container{
+          padding: 0;
+        }
+
+
     .nav-links{
-      display: none;
-    }
+      top: 0;
+      left: 0;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background-color: transparent;
+      backdrop-filter: blur(8px);
+      width: 80%;
+      height: 100vh;
+      margin-left: -100%;
+      transition: all 0.5s ease-in-out;
+      
+      }
+
+      .mobile-menu{
+        margin-left: 0;
+      }
+
+
+
     .hbg{
       display: block;
       height: 30px;

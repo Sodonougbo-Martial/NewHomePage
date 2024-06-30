@@ -32,16 +32,7 @@
             
         </div>
     </header>
-    <div class="mobile-menu">
-      <label for="menu-toggle" class="close-icon">&#10005;</label>
-      <nav class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">News</a>
-          <a href="#">Popular</a>
-          <a href="#">Trending</a>
-          <a href="#">Categories</a>
-      </nav>
-  </div>
+    
 
 
 
@@ -134,4 +125,12 @@
 
     
 </body>
+  <script>
+    const menuhbg = document.querySelector(".hbg")
+    const navlinks = document.querySelector(".nav-links")
+
+
+    menuhbg.addEventListener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+  </script>
+
 </html>
